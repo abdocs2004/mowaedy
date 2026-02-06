@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>مواعيدي - الحجز</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+  <link rel="icon" href="/imgs/logo.jpg"/>
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <style>
+    body {
+      font-family: 'Cairo', sans-serif;
+      background: #f8fafc;
+      padding: 20px;
+      text-align: center;
+    }
+    table {
+      margin: 0 auto;
+      border-collapse: collapse;
+      width: 80%;
+      background-color: #fff;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      cursor: pointer;
+    }
+    th {
+      background-color: #f0f0f0;
+    }
+    td:hover {
+      background-color: #e0f7ff;
+    }
+    .form-container {
+      margin-top: 30px;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      width: 400px;
+      margin: 30px auto;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    input, button {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+    }
+    .appointment-info {
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #0d6efd;
+    }
+  </style>
+</head>
+<body data-page="booking">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+    <div class="container">
+      <a class="navbar-brand" href="./index.html">مواعيدي <i class="fa-solid fa-calendar-check"></i></a>
+      <a class="text-white text-decoration-none" href="providers.html">
+        <b>العودة لمقدمي الخدمة</b> <i class="fa-solid fa-left-long"></i>
+      </a>
+    </div>
+  </nav>
+
+  <div id="tables-container"></div>
+  <div id="login-required" class="alert alert-warning mt-4 d-none">
+    يجب تسجيل الدخول كمستخدم لإتمام الحجز. <a href="./auth.html?role=user">تسجيل الدخول الآن</a>
+  </div>
+
+  <form id="bookingForm" class="form-container d-none">
+    <h3>تأكيد الحجز</h3>
+    <p class="appointment-info" id="selectedTime">...</p>
+
+    <input type="text" name="user_name" placeholder="الاسم الكامل" required />
+    <input type="text" name="user_phone" placeholder="رقم الجوال" required />
+    <input type="email" name="user_email" placeholder="البريد الإلكتروني" required />
+    <input type="hidden" name="appointment_time" id="hiddenTime" />
+
+    <button type="submit" class="btn btn-primary" id="liveToastBtn">تأكيد الحجز</button>
+
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+      <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header">
+          <strong class="me-auto">تم الحجز</strong>
+          <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+        <div class="toast-body">
+          نشكرك على الحجز. سوف يتم التواصل معك في أقرب وقت.
+        </div>
+      </div>
+    </div>
+  </form>
+
+  <footer class="footer bg-dark text-white text-center py-3 mt-5">
+    © 2025 مواعيدي. جميع الحقوق محفوظة.
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>

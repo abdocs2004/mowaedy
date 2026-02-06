@@ -1,0 +1,236 @@
+[
+  {
+    "id": "barber-sami-elwakeel",
+    "type": "barber",
+    "displayName": "الحلاق سامى الوكيل",
+    "rating": 3,
+    "location": "صالون جلاكسى - شارع المول",
+    "image": "/imgs/braber_five.jpg",
+    "providerKey": "Sami ElWakeel",
+    "schedule": [
+      { "day": "الإثنين", "times": ["10:00 صباحًا", "3:00 مساء"] },
+      { "day": "الخميس", "times": ["12:00 مساء", "5:00 مساء"] }
+    ]
+  },
+  {
+    "id": "clinic-ebtisam-mahmoud",
+    "type": "clinic",
+    "displayName": "د. ابتسام محمود",
+    "rating": 4,
+    "location": "عيادة الفتح - شارع الاهرام",
+    "image": "/imgs/doctor_two.jpg",
+    "providerKey": "Ebtisam Mahmoud",
+    "schedule": [
+      { "day": "الأحد", "times": ["9:00 صباحًا", "1:00 مساء"] },
+      { "day": "الثلاثاء", "times": ["2:00 مساء", "4:00 مساء"] }
+    ]
+  },
+  {
+    "id": "barber-shaaban",
+    "type": "barber",
+    "displayName": "الحلاق شعبان",
+    "rating": 4,
+    "location": "صالون نعنشه - شارع الفتح",
+    "image": "/imgs/braber_three.jpg",
+    "providerKey": "Shaaban",
+    "schedule": [
+      { "day": "الجمعة", "times": ["4:00 مساء", "6:00 مساء"] },
+      { "day": "السبت", "times": ["11:00 صباحًا", "1:00 مساء"] }
+    ]
+  },
+  {
+    "id": "clinic-mai-ibrahim",
+    "type": "clinic",
+    "displayName": "د. مى إبراهيم",
+    "rating": 5,
+    "location": "عيادة الفؤاد - شارع المخابرات",
+    "image": "/imgs/doctor_three.jpg",
+    "providerKey": "Mai Ibrahim",
+    "schedule": [
+      { "day": "الأربعاء", "times": ["8:30 صباحًا", "12:00 مساء"] },
+      { "day": "الخميس", "times": ["3:00 مساء", "6:00 مساء"] }
+    ]
+  },
+  {
+    "id": "barber-sami",
+    "type": "barber",
+    "displayName": "الحلاق سامي",
+    "rating": 3,
+    "location": "صالون جلامر - شارع المراغي",
+    "image": "/imgs/braber_two.jpg",
+    "providerKey": "Sami",
+    "schedule": [
+      { "day": "الجمعه", "times": ["5:00 صباحا", "8:00 مساء"] },
+      { "day": "الأربعاء", "times": ["4:00 مساء", "8:00 مساء"] }
+    ]
+  },
+  {
+    "id": "gym-ameen-khalil",
+    "type": "gym",
+    "displayName": "كابتن أمين خليل",
+    "rating": 5,
+    "location": "جيم فتنس باور - شارع الخزان التجمع",
+    "image": "/imgs/gym_two.jpg",
+    "providerKey": "Ameen Khalil",
+    "schedule": [
+      { "day": "الإثنين", "times": ["5:00 مساء", "7:00 مساء"] },
+      { "day": "الأربعاء", "times": ["6:00 مساء", "8:00 مساء"] }
+    ]
+  },
+  {
+    "id": "clinic-gamilah-tharwat",
+    "type": "clinic",
+    "displayName": "د. جميلة ثروت",
+    "rating": 4,
+    "location": "عيادة الجابرى - شارع المركزى",
+    "image": "/imgs/doctor_five.jpg",
+    "providerKey": "Gamilah Tharwat",
+    "schedule": [
+      { "day": "السبت", "times": ["9:00 صباحًا", "2:00 مساء"] },
+      { "day": "الإثنين", "times": ["1:00 مساء", "4:00 مساء"] }
+    ]
+  },
+  {
+    "id": "barber-magid-eltabie",
+    "type": "barber",
+    "displayName": "الحلاق ماجد التابعى",
+    "rating": 5,
+    "location": "صالون جلاكسى - شارع المول",
+    "image": "/imgs/braber_three.jpg",
+    "providerKey": "Magid ElTabie",
+    "schedule": [
+      { "day": "الأحد", "times": ["1:00 مساء", "3:00 مساء"] },
+      { "day": "الثلاثاء", "times": ["10:00 صباحًا", "12:00 مساء"] }
+    ]
+  },
+  {
+    "id": "gym-sameh-abdo",
+    "type": "gym",
+    "displayName": "كابتن سامح عبده",
+    "rating": 5,
+    "location": "جيم فتنس داى - شارع العبور التجمع",
+    "image": "/imgs/gym_one.jpg",
+    "providerKey": "Sameh Abdo",
+    "schedule": [
+      { "day": "الثلاثاء", "times": ["6:00 مساء", "9:00 مساء"] },
+      { "day": "الخميس", "times": ["7:00 مساء", "10:00 مساء"] }
+    ]
+  },
+  {
+    "id": "clinic-ameen-mamdouh",
+    "type": "clinic",
+    "displayName": "د. أمين ممدوح",
+    "rating": 3,
+    "location": "عيادة الأمل - شارع التحرير",
+    "image": "/imgs/doctor_four.jpg",
+    "providerKey": "Ameen Mamdouh",
+    "schedule": [
+      { "day": "الأربعاء", "times": ["10:00 صباحًا", "12:30 مساء"] },
+      { "day": "الجمعة", "times": ["4:00 مساء", "6:00 مساء"] }
+    ]
+  },
+  {
+    "id": "gym-saleh-mohamed",
+    "type": "gym",
+    "displayName": "كابتن صالح محمد",
+    "rating": 5,
+    "location": "جيم القوة الناعمة - شارع محمد عبده",
+    "image": "/imgs/gym_three.jpg",
+    "providerKey": "Saleh Mohamed",
+    "schedule": [
+      { "day": "السبت", "times": ["5:00 مساء", "7:00 مساء"] },
+      { "day": "الإثنين", "times": ["3:00 مساء", "5:00 مساء"] }
+    ]
+  },
+  {
+    "id": "barber-mohsen-sharif",
+    "type": "barber",
+    "displayName": "الحلاق محسن شريف",
+    "rating": 4,
+    "location": "صالون لمعه - شارع جمال عبدالناصر",
+    "image": "/imgs/braber_four.jpg",
+    "providerKey": "Mohsen Sharif",
+    "schedule": [
+      { "day": "الأحد", "times": ["11:00 صباحًا", "2:00 مساء"] },
+      { "day": "الخميس", "times": ["1:00 مساء", "4:00 مساء"] }
+    ]
+  },
+  {
+    "id": "gym-lotfy-khaled",
+    "type": "gym",
+    "displayName": "كابتن لطفى خالد",
+    "rating": 3,
+    "location": "جيم لايف باور - شارع اللؤلؤه",
+    "image": "/imgs/gym_three.jpg",
+    "providerKey": "Lotfy Khaled",
+    "schedule": [
+      { "day": "الثلاثاء", "times": ["4:00 مساء", "6:00 مساء"] },
+      { "day": "الجمعة", "times": ["7:00 مساء", "9:00 مساء"] }
+    ]
+  },
+  {
+    "id": "clinic-manal-elsoghary",
+    "type": "clinic",
+    "displayName": "د. منال الصغيرى",
+    "rating": 4,
+    "location": "عيادة الفؤاد - شارع التوحيد",
+    "image": "/imgs/doctor_two.jpg",
+    "providerKey": "Manal ElSoghary",
+    "schedule": [
+      { "day": "الإثنين", "times": ["9:00 صباحًا", "11:00 صباحًا"] },
+      { "day": "الأربعاء", "times": ["12:00 مساء", "2:00 مساء"] }
+    ]
+  },
+  {
+    "id": "barber-mohamed-elhelw",
+    "type": "barber",
+    "displayName": "الحلاق محمد الحلو",
+    "rating": 3,
+    "location": "صالون فبريكا - شارع الكنانة",
+    "image": "/imgs/braber.jpg",
+    "providerKey": "Mohamed ElHelw",
+    "schedule": [
+      { "day": "السبت", "times": ["2:00 مساء", "4:00 مساء"] },
+      { "day": "الثلاثاء", "times": ["10:00 صباحًا", "12:00 مساء"] }
+    ]
+  },
+  {
+    "id": "gym-ramy-hassanein",
+    "type": "gym",
+    "displayName": "كابتن رامي حسانين",
+    "rating": 5,
+    "location": "جيم فتنس جلاكسي - شارع مكرم عبيد",
+    "image": "/imgs/gym_four.jpg",
+    "providerKey": "Ramy Hassanein",
+    "schedule": [
+      { "day": "الخميس", "times": ["6:00 مساء", "8:00 مساء"] },
+      { "day": "الجمعة", "times": ["5:00 مساء", "7:00 مساء"] }
+    ]
+  },
+  {
+    "id": "clinic-ziad-elsaeed",
+    "type": "clinic",
+    "displayName": "د. زياد السعيد",
+    "rating": 4,
+    "location": "عيادة زياد التخصوصية - شارع البستان",
+    "image": "/imgs/doctor_one.jpg",
+    "providerKey": "Ziad ElSaeed",
+    "schedule": [
+      { "day": "الأحد", "times": ["10:00 صباحًا", "12:00 مساء"] },
+      { "day": "الثلاثاء", "times": ["1:00 مساء", "3:00 مساء"] }
+    ]
+  },
+  {
+    "id": "gym-ramy-elderaa",
+    "type": "gym",
+    "displayName": "كابتن رامي الدرع",
+    "rating": 4,
+    "location": "جيم فتنس جلاكسي - شارع مكرم عبيد",
+    "image": "/imgs/gym_five.jpg",
+    "providerKey": "Ramy Elderaa",
+    "schedule": [
+      { "day": "الإثنين", "times": ["5:00 مساء", "7:00 مساء"] },
+      { "day": "الأربعاء", "times": ["6:00 مساء", "8:00 مساء"] }
+    ]
+  }
+]
