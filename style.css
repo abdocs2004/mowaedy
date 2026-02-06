@@ -78,6 +78,17 @@ nav ul li a:hover {
     color: var(--background--color);
 }
 
+.nav-close {
+    display: none;
+}
+
+.nav-close button {
+    background: transparent;
+    font-size: 22px;
+    color: var(--second--color);
+    cursor: pointer;
+}
+
 .top-header h2 {
     margin: 0;
     font-family: "Changa", sans-serif;
@@ -472,6 +483,13 @@ nav ul li a:hover {
         padding: 15px;
         border-top: 1px solid #ccc;
         text-align: center;
+    }
+
+    .nav-close {
+        display: flex;
+        justify-content: flex-start;
+        border-top: none;
+        padding: 12px 18px;
     }
 
     .menu-toggle {

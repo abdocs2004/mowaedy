@@ -39,10 +39,16 @@
             </a>
         </div>
         <nav class="main-nav">
-            <div class="menu-toggle d-block d-md-none" id="menu-toggle">
+            <div class="menu-toggle d-block d-md-none" id="menu-toggle" role="button" tabindex="0"
+                aria-controls="nav-links" aria-expanded="false">
                 <i class="fas fa-bars"></i>
             </div>
             <ul id="nav-links">
+                <li class="nav-close d-md-none">
+                    <button type="button" id="menu-close" aria-label="اغلاق القائمة">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </li>
                 <li><a href="#home">الرئيسية</a></li>
                 <li><a href="#service">الخدمات</a></li>
                 <li><a href="#reviews">أراء العملاء</a></li>
@@ -270,10 +276,18 @@
 
     <script>
         const menuToggle = document.getElementById('menu-toggle');
+        const menuClose = document.getElementById('menu-close');
         const navLinks = document.getElementById('nav-links');
 
-        menuToggle.addEventListener('click', () => {
-            navLinks.classList.toggle('active');
+        const toggleMenu = () => {
+            const isOpen = navLinks.classList.toggle('active');
+            menuToggle.setAttribute('aria-expanded', String(isOpen));
+        };
+
+        menuToggle.addEventListener('click', toggleMenu);
+        menuClose.addEventListener('click', () => {
+            navLinks.classList.remove('active');
+            menuToggle.setAttribute('aria-expanded', 'false');
         });
 
         document.getElementById("contact-form").addEventListener("submit", function (e) {
